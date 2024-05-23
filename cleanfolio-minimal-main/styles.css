@@ -22,7 +22,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
-  color: var(--clr-fg);
+  color: #555;
   background-color: var(--clr-bg);
 }
 
@@ -46,13 +46,13 @@ body {
 }
 
 ::-moz-selection {
-  background: var(--clr-primary);
+  background: #2978b5;
   color: var(--clr-bg);
 }
 
 ::-webkit-selection,
 ::selection {
-  background: var(--clr-primary);
+  background: #2978b5;
   color: var(--clr-bg);
 }
 
@@ -103,13 +103,13 @@ button {
 ===================*/
 
 .link {
-  color: var(--clr-primary);
+  color: #2978b5;
   padding: 0 0 0.3em 0;
   position: relative;
 }
 
 .link:hover {
-  color: var(--clr-primary);
+  color: #2978b5;
 }
 
 .link::before {
@@ -119,7 +119,7 @@ button {
   height: 0.2em;
   position: absolute;
   bottom: 0;
-  background-color: var(--clr-primary);
+  background-color: #2978b5;
   transition: width 0.2s ease-in;
 }
 
@@ -129,13 +129,13 @@ button {
 }
 
 .link--nav {
-  color: var(--clr-fg);
+  color: #555;
   text-transform: lowercase;
   font-weight: 500;
 }
 
 .link--icon {
-  color: var(--clr-fg);
+  color: #555;
   font-size: 1.2rem;
 }
 
@@ -149,8 +149,8 @@ button {
 }
 
 .btn--outline {
-  color: var(--clr-primary);
-  border: 2px solid var(--clr-primary);
+  color: #2978b5;
+  border: 2px solid #2978b5;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -164,7 +164,7 @@ button {
 .btn--outline:before {
   content: "";
   position: absolute;
-  background-color: var(--clr-primary);
+  background-color: #2978b5;
   right: 100%;
   bottom: 0;
   left: 0;
@@ -196,7 +196,7 @@ button {
 
 .btn--icon:hover,
 .btn--icon:focus {
-  color: var(--clr-primary);
+  color: #2978b5;
 }
 
 .btn--icon:active {
@@ -256,7 +256,7 @@ main {
 }
 
 .about__name {
-  color: var(--clr-primary);
+  color: #2978b5;
 }
 
 .about__role {
@@ -349,7 +349,7 @@ main {
 .footer__link {
   font-size: 0.9rem;
   font-weight: 700;
-  color: var(--clr-fg);
+  color: #555;
 }
 
 .scroll-top {
