@@ -10,7 +10,7 @@
   margin: 3rem 0;
 } */
 
-.project-scroll {
+.projects-page-project-scroll {
   display: flex;
   overflow-x: scroll;
   padding: 1rem;
@@ -18,7 +18,7 @@
   scroll-snap-type: x mandatory;
 }
 
-.project {
+.projects-page-project {
   scroll-snap-align: center;
   flex: 1 1 40vw;
   display: flex;
@@ -27,15 +27,15 @@
   box-shadow: 0px 0 10px 1px rgb(0 0 0 / 20%);
 }
 
-.project + .project {
+.projects-page-project + .projects-page-project {
   margin-left: 1.5rem;
 }
 
-.project-image {
+.project-page-project-image {
   width: 100%;
 }
 
-.project-image img {
+.projects-page-project-image img {
   display: block;
   width: 100%;
   height: auto;
@@ -44,76 +44,76 @@
   transition: filter 1000ms;
 }
 
-.project:hover .project-image img,
-.project:focus-within .project-image img {
+.project:hover .projects-page-project-image img,
+.project:focus-within .projects-page-project-image img {
   filter: brightness(100%) grayscale(0);
 }
 
-.project-text {
+.projects-page-project-text {
   padding: 1rem;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.project-text p {
+.projects-page-project-text p {
   margin: 0 0 0.5rem;
   font-size: 1rem;
 }
 
-.project-title {
+.projects-page-project-title {
   font-size: 1em;
   margin: 0 0 0.25rem;
   color: var(--shade-500);
   text-transform: uppercase;
 }
 
-.project-tags {
+.projects-page-project-tags {
   display: flex;
   flex-wrap: wrap;
   margin: 0.5rem 0;
   padding: 0 1rem;
 }
 
-.project-tags li {
+.projects-page-project-tags li {
   margin-right: 1.5rem;
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
 }
 
-.project-links {
+.projects-page-project-links {
   padding-top: 1em;
   margin-top: auto;
   color: var(--grey-text);
 }
 
-.project-links a {
+.projects-page-project-links a {
   font-size: 0.9rem;
   margin-right: 0.5rem;
   transition: color 500ms;
 }
 
-.project-links a:hover,
-.project-links a:focus {
+.projects-page-project-links a:hover,
+.projects-page-project-links a:focus {
   color: var(--text-color);
   text-decoration-color: var(--text-color);
 }
 
-.more-link {
+/* .projects-page-more-link {
   margin: 0 1.5rem;
   display: flex;
   align-items: center;
   scroll-snap-align: center;
 }
 
-.more-link a {
+.projects-page-more-link a {
   display: block;
   width: max-content;
-}
+} */
 
 @media screen and (max-width: 720px) {
-  .project {
+  .projects-page-project {
     min-width: 75vw;
   }
 }
