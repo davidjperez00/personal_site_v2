@@ -38,10 +38,17 @@
 .projects-page-project-image img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   opacity: 0.8;
   filter: brightness(45%) grayscale(1);
   transition: filter 1000ms;
+}
+
+.project-image-background {
+  background-image: url("./assets/projects/equation_solver/repo_example.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 300px 100px;
 }
 
 .project:hover .projects-page-project-image img,
