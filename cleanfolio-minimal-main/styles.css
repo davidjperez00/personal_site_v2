@@ -23,7 +23,7 @@ body {
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
   color: #555;
-  background-color: var(--clr-bg);
+  background-color: #fcfcfc;
 }
 
 .light {
@@ -533,7 +533,7 @@ main {
 }
 
 .about {
-  background: #fafafa;
+  background: #fcfcfc;
 }
 
 .about__content {
