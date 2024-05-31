@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>David Perez</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+
+      <div class="header__logo-container">
+        <a href="index.html">
+        <div class="header__logo-img-cont">
+          <img
+            src="assets/index_page/headshot_fall2021.jpg"
+            alt="David Perez Logo Image"
+            class="header__logo-img"
+          />
+        </div>
+
+        <h3>
+          <a href="index.html" class="link"
+            >David Jon Perez</a>
+        </h3>
+
+      </div>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">David Perez.</span></h1>
+        <h2 class="about__role">A Electrical and Computer Engineer.</h2>
+        <p class="about__desc">
+          Welcome to my portfolio page! This site serves as a showcase of my
+          projects and skills. Feel free to reach out to me if you have any
+          questions or would like to work together!
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://example.com">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/davidjperez00"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/david-jon-perez/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Project Highlights</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Lane Line Detection</h3>
+            <p class="project__description">
+              For the final project of the UNL's Intro to Deep Learning course my collegaues and I
+              developed a lane line detection Neural Network. The network was trained
+              on the BDD100K data set and was able to accuratley and consistenly detect lane lines.
+              This project was done using a Resnet-50V2 backbone using Tensorflow.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Tensorflow</li>
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Deep Learning</li>
+            </ul>
+
+            <a
+              href="https://github.com/davidjperez00/ClosedAI"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>PCB Design With RP2040</h3>
+            <p class="project__description">
+              The focus of this project was to design a PCB for the RP2040 microprocessor.
+              Embedded on this board were the nececcary components to power the RP2040 such as
+              crystal oscillators, voltage regulators, and a ram chip amongst other components.
+              Additionally, this board was designed to control 4 stepper motors hence it
+              is also equipped with 4 A4988 stepper motor drivers.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">KiCad</li>
+              <li class="project__stack-item">RP2040</li>
+              <li class="project__stack-item">Stepepr Motor Drivers</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Handwritten Equation Solver</h3>
+            <p class="project__description">
+              This personal project was devloped using a simple sequential neural network. 
+              The network was trained on the MNIST dataset plus a dataset of basic arithmetic operators.
+              The network was then able to receive an image of a handwritten equation, determine which 
+              numbers and operators were present, and then solve the equation.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Tensorflow</li>
+              <li class="project__stack-item">OpenCV</li>
+              <li class="project__stack-item">Matplotlib</li>
+            </ul>
+
+            <a
+              href="https://github.com/davidjperez00/ideal-funicular/tree/main"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <!-- <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+            tempora explicabo quae quod deserunt eius sapiente
+          </span>
+        </h2> -->
+        <h2 class="section__title">About Me</h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <!-- <p class="about__content-details-para"> -->
+                <p class="about__desc">
+
+                Hey! It's
+                <strong>David Perez</strong>
+                and I'm a <strong>Software Design Engineer Intern</strong> located in
+                Lincoln, Nebraska. I'm a graduate of the University of Nebraska Lincoln where
+                I obtained a <i>Bachelors of Science in Electrical Engineering</i> and a <i>Bachelors of Science in Computer Engineering</i>.
+              </br></br>
+                Through my experience in the industry, I've worked on projects programming
+                embedded systems for FSK and LoRa radio, serial communications, Battery ADC's, among other 
+                periferal firmware development. For these systems I've also created a C++ QT Application
+                for performing final stage PCB provisioning for several hundred thousand unit runs.
+              </br></br>
+                During my time in academia I took courses on Introduction to Computer Vision, Intro to Deep
+                Learning, Mobile Robotics, and software engineering for robotics courses. I've also taken
+                a handful of electrical engineering labs, and other courses such as Electronics and Circuits I,II,
+                and III, Digitial Signal Processing, and Linear Control Systems.
+            </div>
+          </div>
+          <div class="about__content-skills">
+            <h3 class="skills__content-title">My Skills</h3>
+            <ul class="skills__list">
+              <li class="skills__list-item btn btn--plain">Embedded System Periferal Firmware Development</li>
+              <li class="skills__list-item btn btn--plain">Computer Vision using Deep Learning</li>
+              <li class="skills__list-item btn btn--plain">Fundamental Computer Vision Algorithm</li>
+              <li class="skills__list-item btn btn--plain">Large Scale Development using Git</li>
+              <li class="skills__list-item btn btn--plain">PCB Design</li>
+              <li class="skills__list-item btn btn--plain">Circuit Analysis</li>
+              <li class="skills__list-item btn btn--plain">Digital Signal Processing</li>
+              <li class="skills__list-item btn btn--plain">Python/QT Application Development</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:rjshekhar.official@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/rajshekhar26/cleanfolio-minimal"
+        class="link footer__link"
+      >
+        Created By Raj Shekhar
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
