@@ -567,15 +567,16 @@ main {
 */
 
 .main-footer {
-  background: #000;
+  background: #2978b5;
   color: #fff; }
   .main-footer__upper {
     display: flex;
     justify-content: space-between;
-    padding: 8rem 0; }
+    padding: 2rem 0; }
     @media only screen and (max-width: 56.25em) {
       .main-footer__upper {
-        padding: 6rem 0; } }
+        padding: 1rem 0; 
+      } }
     @media only screen and (max-width: 37.5em) {
       .main-footer__upper {
         display: block; } }
@@ -595,9 +596,11 @@ main {
     margin-top: 2rem;
     color: #eee;
     font-size: 1.5rem;
-    line-height: 1.7; }
+    line-height: 1.7;
+   }
   .main-footer__social-cont {
-    margin-top: 2rem; }
+    margin-top: 2rem;
+   }
   .main-footer__icon {
     margin-right: 1rem;
     width: 2.5rem; }
