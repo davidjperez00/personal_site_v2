@@ -106,6 +106,7 @@
   flex-wrap: wrap;
   margin: 0.5rem 0;
   padding: 0 1rem;
+  list-style-type: disc;
 }
 
 .projects-page-project-tags li {
