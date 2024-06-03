@@ -125,13 +125,27 @@
 .projects-page-project-links a {
   font-size: 0.9rem;
   margin-right: 0.5rem;
-  transition: color 500ms;
+  transition: color 300ms;
+  text-decoration: underline;
+  text-decoration-color: var(--grey-color);
 }
 
 .projects-page-project-links a:hover,
 .projects-page-project-links a:focus {
-  color: var(--text-color);
-  text-decoration-color: var(--text-color);
+  color: #000;
+  text-decoration-color: #000;
+}
+
+/* section a:not([class]) {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--grey-color);
+} */
+
+.project-links a {
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+  transition: color 500ms;
 }
 
 /* .projects-page-more-link {
