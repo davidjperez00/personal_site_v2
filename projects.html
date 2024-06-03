@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1a324c">
+  <meta name="msapplication-navbutton-color" content="#1a324c">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="All the webpages, websites and applications I've created.">
+  <!-- <link rel="stylesheet" href="static/css/main.css" />
+  <link rel="stylesheet" href="static/css/page.css" /> -->
+  <link rel="stylesheet" href="css/projects.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon/favicon-16x16.png" />
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" /> -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3FM96129M"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-Y3FM96129M');
+  </script> -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+
+
+
+  <title>David Perez: Projects</title>
+</head>
+
+<body>
+  <header class="header center">
+
+    <div class="header__logo-container">
+      <a href="index.html">
+      <div class="header__logo-img-cont">
+        <img
+          src="assets/index_page/headshot_fall2021.jpg"
+          alt="David Perez Logo Image"
+          class="header__logo-img"
+        />
+      </div>
+
+      <h3>
+        <a href="index.html" class="link"
+          >David Jon Perez</a>
+      </h3>
+
+    </div>
+
+    <nav class="nav center">
+      <ul class="nav__list center">
+        <li class="nav__list-item">
+          <a class="link link--nav" href="projects.html">Projects</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="index.html#about-me">About Me</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="index.html#contact">Contact</a>
+        </li>
+      </ul>
+
+      <button
+        type="button"
+        aria-label="toggle navigation"
+        class="btn btn--icon nav__hamburger"
+      >
+        <i aria-hidden="true" class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container">
+      <h1 class="section-title">Projects</h1>
+      <p class="section-subtitle">
+        Over the course of my career as an electrical and computer engineer, I have been
+        fortunate enough to work on a variety of projects. Explore this projects page
+        to see some of the most notable academic and personal projects.
+      </p>
+    </section>
+    <section id="websites" class="container">
+      <h2 class="subsection-title">
+        Computer Engineering (3)
+      </h2>
+      <div class="main-text projects-page-project-scroll">
+        <div id="project-lane-line-detection" class="projects-page-project">
+          <div class="projects-page-project-image">
+            <img src="assets/projects/Lane_line_detection/example_output_resized.png" width="720" height="340"
+              alt="Lane Line Detection">
+          </div>
+          <div class="projects-page-project-text">
+            <h3 class="projects-page-project-title">Lane Line Detection</h3>
+            <p>Lane Line Detection using Deep Learning on BDD100K Dataset.</p>
+            <ul class="projects-page-project-tags">
+              <li>Python</li>
+              <li>Tensorflow</li>
+              <li>Resnet-50V2</li>
+            </ul>
+            <div class="projects-page-project-links">
+              <a href="https://github.com/davidjperez00/ClosedAI" target="_blank" rel="noopener">Github Repository</a>
+            </div>
+          </div>
+        </div>
+        <div id="project-equation-sovler" class="projects-page-project">
+          <div class="projects-page-project-image">
+            <img src="assets/projects/equation_solver/repo_example_resized.png" width="720" height="340"
+              alt="Minimalist Website">
+          </div>
+          <div class="projects-page-project-text">
+            <h3 class="projects-page-project-title">Handwritten Equation Solver</h3>
+            <p>A python program that solves a basic handwritten arithmetic equation shown in an image.</p>
+            <ul class="projects-page-project-tags">
+              <li>Python</li>
+              <li>Convolutional Neural Networks</li>
+              <li>Tensorflow</li>
+            </ul>
+            <div class="projects-page-project-links">
+              <a href="https://github.com/davidjperez00/ideal-funicular" target="_blank"
+               rel="noopener">Github Repository</a>
+            </div>
+          </div>
+        </div>
+        <div class="projects-page-project">
+          <div class="projects-page-project-image">
+            <img src="assets/projects/object_avoidance_mobile_robot/object_avoidance_mobile_robot.gif" width="720" height="340"
+              alt="Object avoidance Autonomous Robot">
+          </div>
+          <div class="projects-page-project-text">
+            <h3 class="projects-page-project-title">Follow The Gap Mobile Robot</h3>
+            <p>A autonomous mobile robot that navigates a course while avoiding obastacle within the course.</p>
+            <ul class="projects-page-project-tags">
+              <li>Robot Operating System (ROS)</li>
+              <li>NIMBUS Labs</li>
+            </ul>
+            <div class="projects-page-project-links">
+              <a href="https://github.com/davidjperez00/black_car" target="_blank"
+              rel="noopener">Github Repository</a>         
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="apps" class="container">
+      <h2 class="subsection-title">
+        Electrical Engineering (4)
+      </h2>
+      <div class="main-text projects-page-project-scroll">
+        <div id="project-pcb-design" class="projects-page-project">
+          <div class="projects-page-project-image">
+            <img src="assets/projects/PCB_design/PCB_design_resized.png" width="720" height="340"
+              alt="A grid game website">
+          </div>
+          <div class="projects-page-project-text">
+            <h3 class="projects-page-project-title">PCB Design With RP20240</h3>
+            <p>A custom printed circuit board equipped with 4 A4988 servo motor drivers.</p>
+            <ul class="projects-page-project-tags">
+              <li>KiCad</li>
+              <li>RP2040</li>
+            </ul>
+            <div class="projects-page-project-links">
+              <a href="./assets/projects/PCB_design/PCB_design.PNG" target="_blank" rel="noopener">View Full PCB Image</a>
+            </div>
+          </div>
+        </div>
+        <div class="projects-page-project">
+          <div class="projects-page-project-image">
+            <img src="assets/projects/FPV_drone/IMG_4686.png" width="720" height="340"
+            alt="Hobbyist Website">
+          </div>
+          <div class="projects-page-project-text">
+            <h3 class="projects-page-project-title">FPV Drone</h3>
+            <p>A first person view drone with video and radio communications.</p>
+            <ul class="projects-page-project-tags">
+              <li>Motor Controllers</li>
+              <li>Flight Controllers</li>
+              <li>Soldering</li>
+            </ul>
+            <div class="projects-page-project-links">
+              <a href="https://www.youtube.com/watch?v=xH9fMbQHOzc&t=1s" target="_blank" rel="noopener">Youtube Demo</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="projects-page-project">
+          <div class="projects-page-project-image">
+            <img src="assets/projects/Lowpass_filter/lowpass_filter_with_response.png" width="720" height="340"
+              alt="A note taking application">
+          </div>
+          <div class="projects-page-project-text">
+            <h3 class="projects-page-project-title">Lowpass FIR Filter</h3>
+            <p>This digital signal processing project was a fundamental 
+              low pass filter for high frequency noise in audio signals.</p>
+            <ul class="projects-page-project-tags">
+              <li>MATLAB</li>
+              <li>Signal Processing</li>
+            </ul>
+            <div class="projects-page-project-links">
+              <a href="./assets/projects/Lowpass_filter/Interpolation_Filtering.pdf" target="_blank" rel="noopener">View Report PDF</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="projects-page-project">
+          <div class="projects-page-project-image">
+            <img src="assets/projects/binary_arithmetic_circuit/binary_arthimetric_circuit.png" width="720" height="340"
+              alt="Logic Circuit schematic for performing arithmetic">
+          </div>
+          <div class="projects-page-project-text">
+            <h3 class="projects-page-project-title">Binary Arthimetic Circuit</h3>
+            <p>A circuit consisting of a series of IC's that performs binary addition and multiplication.</p>
+            <ul class="projects-page-project-tags">
+              <li>Circuit Design</li>
+              <li>Integrated Circuits</li>
+            </ul>
+            <div class="projects-page-project-links">
+              <a href="./assets/projects/binary_arithmetic_circuit/binary_arthimetric_circuit_original.png" target="_blank" rel="noopener">View Full Image</a>
+            </div>
+          </div>
+
+        </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+            <h3 class="footer_title">Connect with me on socials!</h3>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/david-jon-perez/">
+              <img
+                class="main-footer__icon"
+                src="assets/footer/linkedin-ico.png"
+                alt="icon"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/davidjperez00">
+              <img
+                class="main-footer__icon"
+                src="assets/footer/github-ico.png"
+                alt="icon"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCvRXNFfH7nu2xRgsOhfexqQ">
+              <img
+                class="main-footer__icon"
+                src="assets/footer/yt-ico.png"
+                alt="icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-footer__lower">
+        &copy; Copyright 2024, David Jon Perez
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+<!-- <script src="./static/js/index.js"></script> -->
+
+</html>

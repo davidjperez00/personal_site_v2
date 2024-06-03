@@ -1,0 +1,167 @@
+/* 
+  File: projects.css
+  Author: David Perez and jemimaabu@Github
+  Date: 5/23/2024
+  Description: CSS styling for the projects.html page.
+*/
+
+
+/* section {
+  margin: 3rem 0;
+} */
+
+.section-title {
+  margin-bottom: 2.4rem;
+  /* margin-block-start: 0.83em;
+  margin-block-end: 0.83em; */
+}
+
+.subsection-title {
+  margin-top: 1.2em;
+  margin-block-end: 0.40em;
+}
+
+.section-subtitle {
+  margin-top: 0.0rem;
+  margin-bottom: 0.0rem;
+}
+
+.projects-page-project-scroll {
+  display: flex;
+  overflow-x: scroll;
+  padding: 1rem;
+  margin: 0 -1rem;
+  scroll-snap-type: x mandatory;
+}
+
+.projects-page-project {
+  scroll-snap-align: center;
+  flex: 1 1 40vw;
+  display: flex;
+  flex-direction: column;
+  min-width: 40vw;
+  box-shadow: 0px 0 10px 1px rgb(0 0 0 / 20%);
+}
+
+.projects-page-project + .projects-page-project {
+  margin-left: 1.5rem;
+}
+
+.project-page-project-image {
+  width: 100%;
+}
+
+.projects-page-project-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+  filter: brightness(45%) grayscale(1);
+  transition: filter 1000ms;
+}
+
+/* @media (max-width: 720px) {
+  .projects-page-project-image img {
+
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: none;
+  }
+} */
+
+/* .project-image-background {
+  background-image: url("./assets/projects/equation_solver/repo_example.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 300px 100px;
+} */
+
+.projects-page-project:hover .projects-page-project-image img,
+.projects-page-project:focus-within .projects-page-project-image img {
+  filter: brightness(100%) grayscale(0);
+}
+
+.projects-page-project-text {
+  padding: 1rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-page-project-text p {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.projects-page-project-title {
+  font-size: 1em;
+  margin: 0 0 0.25rem;
+  color: var(--shade-500);
+  text-transform: uppercase;
+}
+
+.projects-page-project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.5rem 0;
+  padding: 0 1rem;
+  list-style-type: disc;
+}
+
+.projects-page-project-tags li {
+  margin-right: 1.5rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+.projects-page-project-links {
+  padding-top: 1em;
+  margin-top: auto;
+  color: var(--grey-text);
+}
+
+.projects-page-project-links a {
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+  transition: color 300ms;
+  text-decoration: underline;
+  text-decoration-color: var(--grey-color);
+}
+
+.projects-page-project-links a:hover,
+.projects-page-project-links a:focus {
+  color: #000;
+  text-decoration-color: #000;
+}
+
+/* section a:not([class]) {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--grey-color);
+} */
+
+.project-links a {
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+  transition: color 500ms;
+}
+
+/* .projects-page-more-link {
+  margin: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  scroll-snap-align: center;
+}
+
+.projects-page-more-link a {
+  display: block;
+  width: max-content;
+} */
+
+@media screen and (max-width: 720px) {
+  .projects-page-project {
+    min-width: 75vw;
+  }
+}

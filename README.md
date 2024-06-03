@@ -1,2 +1,5 @@
-# personal_site_v2
-This repository serves the purpose of creating a second version to my existing portfolio webpage
+# David Jon Perez Portfolio Wepage
+
+A portfolio template built with HTML, CSS, and JavaScript.
+
+My custom personal site repository for creating my portfolio webpage. 
