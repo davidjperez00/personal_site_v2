@@ -75,22 +75,23 @@
       <!-- About -->
       <div class="about center">
         <h1>Hi, I am <span class="about__name">David Perez.</span></h1>
-        <h2 class="about__role">A Electrical and Computer Engineer.</h2>
+        <h2 class="about__role">An Electrical and Computer Engineer.</h2>
         <p class="about__desc">
           Welcome to my portfolio page! This site serves as a showcase of my
-          projects and skills. Feel free to reach out to me if you have any
+          projects and skills. Feel free to contact me if you have any
           questions or would like to work together!
         </p>
 
         <div class="about__contact center">
-          <a href="./assets/index_page/DavidPerezResume.pdf">
+          <a href="./assets/index_page/DavidPerezResume.pdf" target="_blank">
             <span class="btn btn--outline">Resume</span>
           </a>
 
           <a
             href="https://github.com/davidjperez00"
             aria-label="github"
-            class="link link--icon"
+            class="link link--icon--about"
+            target="_blank"
           >
             <i aria-hidden="true" class="fab fa-github"></i>
           </a>
@@ -98,7 +99,8 @@
           <a
             href="https://www.linkedin.com/in/david-jon-perez/"
             aria-label="linkedin"
-            class="link link--icon"
+            class="link link--icon--about"
+            target="_blank"
           >
             <i aria-hidden="true" class="fab fa-linkedin"></i>
           </a>
@@ -113,9 +115,9 @@
           <div class="project">
             <h3>Lane Line Detection</h3>
             <p class="project__description">
-              For the final project of the UNL's Intro to Deep Learning course my collegaues and I
+              For the final project of the UNL's Intro to Deep Learning course my colleagues and I
               developed a lane line detection Neural Network. The network was trained
-              on the BDD100K data set and was able to accuratley and consistenly detect lane lines.
+              on the BDD100K data set and could accuratley and consistently detect lane lines.
               This project was done using a Resnet-50V2 backbone using Tensorflow.
             </p>
             <ul class="project__stack">
@@ -128,6 +130,7 @@
               href="https://github.com/davidjperez00/ClosedAI"
               aria-label="source code"
               class="link link--icon"
+              target="_blank"
             >
               <i aria-hidden="true" class="fab fa-github"></i>
             </a>
@@ -135,6 +138,7 @@
               href="projects.html#project-lane-line-detection"
               aria-label="live preview"
               class="link link--icon"
+              target="_blank"
             >
               <i aria-hidden="true" class="fas fa-external-link-alt"></i>
             </a>
@@ -144,7 +148,7 @@
             <h3>PCB Design With RP2040</h3>
             <p class="project__description">
               The focus of this project was to design a PCB for the RP2040 microprocessor.
-              Embedded on this board were the nececcary components to power the RP2040 such as
+              Embedded on this board were the necessary components to power the RP2040 such as
               crystal oscillators, voltage regulators, and a ram chip amongst other components.
               Additionally, this board was designed to control 4 stepper motors hence it
               is also equipped with 4 A4988 stepper motor drivers.
@@ -158,6 +162,7 @@
               href="projects.html#project-pcb-design"
               aria-label="live preview"
               class="link link--icon"
+              target="_blank"
             >
               <i aria-hidden="true" class="fas fa-external-link-alt"></i>
             </a>
@@ -166,7 +171,7 @@
           <div class="project">
             <h3>Handwritten Equation Solver</h3>
             <p class="project__description">
-              This personal project was devloped using a simple sequential neural network. 
+              This personal project was developed using a simple sequential neural network. 
               The network was trained on the MNIST dataset plus a dataset of basic arithmetic operators.
               The network was then able to receive an image of a handwritten equation, determine which 
               numbers and operators were present, and then solve the equation.
@@ -181,6 +186,7 @@
               href="https://github.com/davidjperez00/ideal-funicular/tree/main"
               aria-label="source code"
               class="link link--icon"
+              target="_blank"
             >
               <i aria-hidden="true" class="fab fa-github"></i>
             </a>
@@ -188,6 +194,7 @@
               href="projects.html#project-equation-sovler"
               aria-label="live preview"
               class="link link--icon"
+              target="_blank"
             >
               <i aria-hidden="true" class="fas fa-external-link-alt"></i>
             </a>
@@ -209,16 +216,16 @@
                 <strong>David Perez</strong>
                 and I'm a <strong>Software Design Engineer Intern</strong> located in
                 Lincoln, Nebraska. I'm a graduate of the University of Nebraska Lincoln where
-                I obtained a <i>Bachelors of Science in Electrical Engineering</i> and a <i>Bachelors of Science in Computer Engineering</i>.
+                I obtained a <i>Bachelor of Science in Electrical Engineering</i> and a <i>Bachelor of Science in Computer Engineering</i>.
               </br></br>
                 Through my experience in the industry, I've worked on projects programming
-                embedded systems for FSK and LoRa radio, serial communications, Battery ADC's, among other 
-                periferal firmware development. For these systems I've also created a C++ QT Application
+                embedded systems for FSK and LoRa radio, serial communications, and battery ADCs, among other 
+                peripheral firmware development. For these systems, I've also created a C++ QT Application
                 for performing final stage PCB provisioning for several hundred thousand unit runs.
               </br></br>
-                During my time in academia I took courses on Introduction to Computer Vision, Intro to Deep
+                During my time in academia, I took courses on Introduction to Computer Vision, Intro to Deep
                 Learning, Mobile Robotics, and software engineering for robotics courses. I've also taken
-                a handful of electrical engineering labs, and other courses such as Electronics and Circuits I,II,
+                a handful of electrical engineering labs, and other courses such as Electronics and Circuits I, II,
                 and III, Digitial Signal Processing, and Linear Control Systems.
             </div>
           </div>
@@ -269,12 +276,13 @@
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/davidjperez00">
-                <img
-                  class="main-footer__icon"
-                  src="assets/footer/github-ico.png"
-                  alt="icon"
-                />
+              <a
+                href="https://github.com/davidjperez00"
+                aria-label="github"
+                rel="noreferrer"
+                class="main-footer__icon git-icon"
+                target="_blank">
+                <i aria-hidden="true" class="fab fa-github"></i>
               </a>
               <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCvRXNFfH7nu2xRgsOhfexqQ">
                 <img
