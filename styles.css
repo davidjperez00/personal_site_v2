@@ -139,6 +139,12 @@ button {
   font-size: 1.2rem;
 }
 
+.link--icon--about {
+  margin-top: 0.4em;
+  color: #555;
+  font-size: 1.9rem;
+}
+
 .btn {
   display: block;
   padding: 0.8em 1.4em;
@@ -306,7 +312,7 @@ main {
   margin-top: 2.4em;
 }
 
-.about .link--icon {
+.about .link--icon--about {
   margin-right: 0.8em;
 }
 
@@ -604,4 +610,11 @@ main {
 .footer_title {
   color: #FCFCFC;
   text-align: center;
+}
+
+.git-icon {
+  margin-right: .5rem;
+  width: 2.5rem;
+  margin-top: -0.2rem;
+  font-size: 2rem;
 }
