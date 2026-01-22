@@ -343,6 +343,13 @@ main {
   transition: transform 0.2s linear;
 }
 
+.project img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
 .project:hover {
   transform: translateY(-7px);
 }
